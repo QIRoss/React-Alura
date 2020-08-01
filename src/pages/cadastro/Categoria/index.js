@@ -50,7 +50,8 @@ function CadastroCategoria() {
         setValues(valoresIniciais);
       }}>
 
-        <FormField 
+        <FormField
+          label="Nome da Categoria" 
           type="text"
           name="nome"
           value={values.nome}
@@ -58,6 +59,7 @@ function CadastroCategoria() {
         />
 
         <FormField 
+          label="Descricao"
           type="textarea"
           name="descricao"
           value={values.descricao}
@@ -65,6 +67,7 @@ function CadastroCategoria() {
         />
 
         <FormField 
+          label="Cor"
           type="color"
           name="cor"
           value={values.cor}
